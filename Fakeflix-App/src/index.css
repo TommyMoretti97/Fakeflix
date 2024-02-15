@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+#root{
+    background-color: #00050d;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    height: 100%;
+}
+a{
+    text-decoration: none !important;
+}
+.a-nav{
+    font-size: 26px;
+    padding: 5px 25px !important;
+}
+.a-nav:hover{
+    color: red !important;
+}
+#open{
+    min-height: 105vh;
+    background-size: cover;
+}
+.card-trend{
+    width: 280px !important;
+    height: 100%;
+    cursor: pointer;
+}
+
+.slick-slider svg{
+    width: 50px !important;
+    height: 200px !important;
+    z-index: 1; 
+    position: absolute;
+}
+
+.bi-heart-fill:hover {
+    fill: green;
+}
+.cardhover{
+    width: 250%;
+    height: 420px;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: white; 
+}
+.bi-heart-fill{
+    position: relative;
+    bottom: -60px;
+    right: 10px;
+}
+.description{
+    position: relative;
+    top: 80px;
+    left: 0;
+}
+.text-over-img{
+    width: 50%;
+    padding:  0vh 5vh;
+    padding-top: 20vh;
+    background-color:transparent;
+    position: absolute;
+    bottom: 200px;
+    
+}
+.buttonoverlink{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    left:600px;
+    bottom: 70px;
+} 
+
+.buttonoverlink svg{
+    position: relative;
+    right: 5px;
+    bottom: 75px;
+}
+#bg-mylist{
+    background-image: url(https://img.freepik.com/premium-vector/wishlist-icon-flat-style-like-document-vector-illustration-white-isolated-background-favorite-list-business-concept_157943-25482.jpg);
+    min-height: 100vh;
+    background-size: contain;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.slick-dots{
+  bottom: 0 !important;
+  
+}
+.btn-search{
+    border: 1px solid white;
+    border-radius: 40px;
+    background: none;
+    
+    color:white;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: 0.9s;
+    position: relative;
+    overflow: hidden;
+  
+}
+.btn-search:hover{
+    color: black;
+   
+}
+.btn-search::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: white;
+    z-index: 0;
+    transition: 0.9s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+ 
+}
+
+  .text-visible{
+    position: relative;
+    z-index: 1;
+  }
+
+.btn-search:hover::before{
+    height: 180%;
+}
