@@ -77,7 +77,7 @@ function TvSeries() {
         ))}
         </Slider>
         </div>
-        <h2 className="mt-5 mb-3 text-white display-5">Series This Years</h2>
+        <h2 className="mt-5 mb-3 text-white display-5">Series This Year</h2>
         <div className="px-5">
         <Slider {...settings}>
         {thisYearSeries.results && thisYearSeries.results.map((movie) => (

@@ -82,7 +82,7 @@ const handleButtonClick = (movie) => {
         ))}
         </Slider>
         </div>
-        <h2 className="mt-5 mb-3 text-white display-5">Films This Years</h2>
+        <h2 className="mt-5 mb-3 text-white display-5">Films This Year</h2>
         <div className="px-5">
         <Slider {...settings}>
         {thisYear.results && thisYear.results.map((movie) => (

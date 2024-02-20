@@ -22,6 +22,7 @@ function NavbarHome ({ buttonTitle }) {
           >
             <Link to={'/films' }className='nav-link text-white a-nav'>Films</Link>
             <Link to={'/tv-series'} className='nav-link text-white a-nav'>TV Series</Link>
+            <Link to={'/categories'} className='nav-link text-white a-nav'>Categories</Link>
            <Link to={'/search' }className='nav-link text-white a-nav'>Search</Link>
            <Link to={`/my-list/${buttonTitle}`} className='nav-link text-white a-nav'>My List</Link>
           </Nav>

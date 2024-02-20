@@ -8,6 +8,9 @@ import Films from './pages/Films';
 import TvSeries from './pages/TvSeries';
 import SeriesDetail from './pages/SeriesDetail';
 import Search from './pages/Search';
+import Categories from './pages/Categories';
+import MovieCategory from './pages/MovieCategory';
+import SeriesCategory from './pages/SeriesCategory';
 
 
 
@@ -27,6 +30,10 @@ function App() {
         <Route path='/films'element={<Films />}/>
         <Route path='/tv-series' element={<TvSeries />}/>
         <Route path='/search' element={<Search/>}/>
+        <Route path='/categories' element={<Categories />}/>
+        <Route path='/categories/movie/:movieID' element={<MovieCategory/>}/>
+        <Route path='/categories/series/:seriesID' element={<SeriesCategory/>}/>
+        
       </Routes>
       
     </>
