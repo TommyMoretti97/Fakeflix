@@ -31,7 +31,7 @@ useEffect(()=>{
         <>
         <NavbarHome/>
         <div className="text-center my-5">
-            <h3 className="text-white">Choice if you wanna search a Movie or a TvSeries</h3>
+            <h3 className="text-white">Choose which category you want to see.</h3>
             <button onClick={MovieOn}  className="btn-search"><span className="text-visible h5">Movies</span></button>
             <button onClick={SeriesOn}  className="btn-search"><span className="text-visible h5">Tv Series</span></button>
         </div>
