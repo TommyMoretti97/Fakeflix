@@ -1,6 +1,6 @@
  import { ApiKey } from "./ApiKeyFetchTrend";
- function FetchTrend({url, setData}){
 
+ function FetchTrend({url, setData}){
 
     const header = {
     method: 'GET',
