@@ -87,7 +87,7 @@ function SeriesCategory ({buttonTitle}) {
     
   </Navbar>
 
-        <h2 className='text-white display-4'>{categoryName}</h2>
+        <h2 className='text-white display-4 pt-5'>{categoryName}</h2>
         <Container fluid>
         <Row className="justify-content-around ">
          {allSeries.map((serie, index) => (

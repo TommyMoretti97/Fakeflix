@@ -91,7 +91,7 @@ function MovieCategory ({buttonTitle}) {
     
   </Navbar>
 
-        <h2 className="display-5">{categoryName}</h2>
+        <h2 className="text-white display-4 pt-5">{categoryName}</h2>
         <Container fluid>
         <Row className="justify-content-around ">
         {/* {movies?.results.map((movie) => (
