@@ -24,7 +24,7 @@ function Main () {
  useEffect(() =>{
     FetchTrend({url: 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en&page=1&sort_by=popularity.desc', setData: setTrend});
     setIsLoading(false);
- },[])
+ },[]);
 
 
  const handleMouseOver = (movie) => {
@@ -56,7 +56,7 @@ const handleButtonClick = (movie) => {
             <SpinnerWait />
             ):(
                 <Container fluid className="px-5 " style={{paddingTop:'20%'}}> 
-                <h2 className="text-warning bg-dark" style={{width:'230px'}}>Current Movies</h2>
+                <h2 className="text-warning bg-dark ms-5 mb-3" style={{width:'230px'}}>Current Movies</h2>
                 <Slider {...settings}>
                 {trend.results && trend.results.map((movie) => (
                   

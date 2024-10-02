@@ -159,3 +159,16 @@ a{
 .categories-card:hover {
     transform: scale(1.2);
 }
+.slick-next , .slick-prev{
+    width: 40px !important;
+}
+.slick-prev::before, .slick-next::before{
+    font-size: 40px !important;
+    
+} .slick-slider{
+    width: 95%;
+    margin: 0 auto;
+}
+.slick-prev{
+    transform: translate(-50%, -50%) !important;
+}
